@@ -1,0 +1,34 @@
+{
+  "name": "simple-express-mongoose-api",
+  "version": "1.0.0",
+  "description": "Simple express api with mongoose integration",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlosreyesk/simple-express-mongoose-api.git"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "mongoose",
+    "mongo",
+    "simple",
+    "starter"
+  ],
+  "author": "carlos reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlosreyesk/simple-express-mongoose-api/issues"
+  },
+  "homepage": "https://github.com/Carlosreyesk/simple-express-mongoose-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "mongoose-timestamp": "^0.6.0"
+  }
+}
